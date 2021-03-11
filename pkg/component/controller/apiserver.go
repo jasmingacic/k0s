@@ -44,7 +44,7 @@ type APIServer struct {
 var apiDefaultArgs = map[string]string{
 
 	"allow-privileged":                   "true",
-	"enable-admission-plugins":           "NodeRestriction",
+	"enable-admission-plugins":           "NodeRestriction,AlwaysPullImages,EventRateLimit,SecurityContextDeny,PodSecurityPolicy",
 	"requestheader-extra-headers-prefix": "X-Remote-Extra-",
 	"requestheader-group-headers":        "X-Remote-Group",
 	"requestheader-username-headers":     "X-Remote-User",
