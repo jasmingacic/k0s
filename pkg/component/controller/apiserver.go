@@ -44,11 +44,12 @@ type APIServer struct {
 var apiDefaultArgs = map[string]string{
 
 	"allow-privileged":                   "true",
-	"enable-admission-plugins":           "NodeRestriction,AlwaysPullImages,EventRateLimit,SecurityContextDeny,PodSecurityPolicy",
+	"enable-admission-plugins":           "NodeRestriction,AlwaysPullImages,SecurityContextDeny,PodSecurityPolicy",
 	"requestheader-extra-headers-prefix": "X-Remote-Extra-",
 	"requestheader-group-headers":        "X-Remote-Group",
 	"requestheader-username-headers":     "X-Remote-User",
 	"secure-port":                        "6443",
+	"anonymous-auth":                     "false",
 }
 
 const egressSelectorConfigTemplate = `
