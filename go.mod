@@ -48,7 +48,7 @@ require (
 	go.etcd.io/etcd/client/pkg/v3 v3.5.5
 	go.etcd.io/etcd/client/v3 v3.5.5
 	go.etcd.io/etcd/etcdutl/v3 v3.5.4
-	go.uber.org/multierr v1.8.0
+	go.uber.org/multierr v1.9.0
 	go.uber.org/zap v1.24.0
 	golang.org/x/crypto v0.4.0
 	golang.org/x/exp v0.0.0-20220827204233-334a2380cb91
@@ -74,7 +74,7 @@ require (
 	k8s.io/kube-aggregator v0.26.0
 	k8s.io/kubectl v0.26.0
 	k8s.io/kubelet v0.26.0
-	k8s.io/kubernetes v1.26.0
+	k8s.io/kubernetes v1.26.0-alpha.1
 	k8s.io/mount-utils v0.26.0
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 	sigs.k8s.io/controller-runtime v0.13.1-0.20221206203637-3da2de04734a // master branch as of 2022-12-06. We need to bump up when there's a new release compatible with k8s 1.26
