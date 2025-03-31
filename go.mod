@@ -2,6 +2,8 @@ module github.com/k0sproject/k0s
 
 go 1.23.0
 
+toolchain go1.24.1
+
 // k0s
 require (
 	github.com/BurntSushi/toml v1.4.0
@@ -21,7 +23,7 @@ require (
 	github.com/fsnotify/fsnotify v1.8.0
 	github.com/go-logr/logr v1.4.2
 	github.com/go-openapi/jsonpointer v0.21.0
-	github.com/go-playground/validator/v10 v10.24.0
+	github.com/go-playground/validator/v10 v10.26.0
 	github.com/google/go-cmp v0.6.0
 	github.com/k0sproject/bootloose v0.9.0
 	github.com/k0sproject/version v0.6.0
@@ -50,11 +52,11 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.17
 	go.etcd.io/etcd/etcdutl/v3 v3.5.17
 	go.uber.org/zap v1.27.0
-	golang.org/x/crypto v0.32.0
+	golang.org/x/crypto v0.33.0
 	golang.org/x/mod v0.22.0
-	golang.org/x/sync v0.10.0
-	golang.org/x/sys v0.29.0
-	golang.org/x/text v0.21.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/sys v0.30.0
+	golang.org/x/text v0.22.0
 	golang.org/x/tools v0.29.0
 	google.golang.org/grpc v1.70.0
 	helm.sh/helm/v3 v3.17.0
@@ -258,7 +260,7 @@ require (
 	golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f // indirect
 	golang.org/x/net v0.34.0 // indirect
 	golang.org/x/oauth2 v0.24.0 // indirect
-	golang.org/x/term v0.28.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
 	golang.org/x/time v0.7.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
 	google.golang.org/genproto v0.0.0-20240227224415-6ceb2ff114de // indirect
